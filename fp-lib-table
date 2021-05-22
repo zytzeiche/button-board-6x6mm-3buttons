@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name button-board-6x6mm)(type KiCad)(uri ${KIPRJMOD}/button-board-6x6mm.pretty)(options "")(descr ""))
+)
