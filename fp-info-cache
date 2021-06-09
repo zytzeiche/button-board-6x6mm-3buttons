@@ -1,4 +1,4 @@
-19060842094644917
+19174408761214589
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83026,59 +83026,24 @@ varistor SIOV
 0
 2
 2
-button-board-6x6mm-4buttons
-MountingHole_2.2mm_M2
-Mounting Hole 2.2mm, no annular, M2
-mounting hole 2.2mm no annular m2
+user-footprints
+APDS_9960_5pin_Module_I2C-13.5x13.5mm
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
 0
-0
-0
-button-board-6x6mm-4buttons
-MountingHole_3.2mm_M3
-Mounting Hole 3.2mm, no annular, M3
-mounting hole 3.2mm no annular m3
-0
-0
-0
-button-board-6x6mm-4buttons
-PinSocket_2x03_P2.54mm_Vertical
-Through hole straight socket strip, 2x03, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
-Through hole socket strip THT 2x03 2.54mm double row
-0
-6
-6
-button-board-6x6mm-4buttons
-SW_PUSH_6mm_H7.3mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=7.3mm
-tact sw push 6mm
+5
+5
+user-footprints
+BME_280_4pin_Module_I2C-13.5x10.5mm
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
 0
 4
-2
-button-board-6x6mm-4buttons
-SYM_GND_0.8mm_SilkScreen_Back
-
-
-0
-0
-0
-button-board-6x6mm-4buttons
-SYM_GND_0.8mm_SilkScreen_Front
-
-
-0
-0
-0
-button-board-6x6mm-4buttons
-SYM_G_SilkScreen_Front
-
-
-0
-0
-0
-button-board-6x6mm-4buttons
-SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
+4
+user-footprints
+DS18B20_Header_2.54mm
+TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
 0
 3
 3
@@ -83097,12 +83062,89 @@ Module ESP-8266 ESP8266
 22
 22
 user-footprints
-OLED_1.9inch_38x12mm
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
+HT16K33_SOP24
+
+
+0
+24
+24
+user-footprints
+HT16K33_SOP28_300MIL
+
+
+0
+28
+28
+user-footprints
+LED-7seg-4digit-0.56in-2x7pin-50x19mm
+
+
+0
+14
+14
+user-footprints
+LED-14seg-2digit-0.56in-2x9pin25.1x21.15mm_KWA-541CBB
+
+led 14seg 16seg alpanumeric alnum display
+0
+18
+18
+user-footprints
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
 0
 4
 4
+user-footprints
+Logo_OSHW_3mm_SilkScreen
+
+
+0
+0
+0
+user-footprints
+Logo_OSHW_6mm_w_Text_SilkScreen
+
+
+0
+0
+0
+user-footprints
+OLED-0.91inch-128x32_Module_I2C-38x12mm
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
+user-footprints
+Pad-3-p2mm-w1.5mm
+
+
+0
+3
+3
+user-footprints
+PinSocket_1x05_P2.54mm_Vertical
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+user-footprints
+Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork
+solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm
+solder Pin_ with flat fork
+0
+1
+1
+user-footprints
+Pin_D0.8mm
+solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm
+solder Pin_ with flat fork
+0
+1
+1
 user-footprints
 QR-github.com-zytzeiche
 
@@ -83117,6 +83159,13 @@ resistor
 0
 3
 3
+user-footprints
+SOLDERJUMPER_REFLOW_NOPASTE-3x2mm
+
+
+0
+2
+2
 user-footprints
 SYM_CC_SilkScreen_Back
 
@@ -83188,12 +83237,180 @@ SYM_HK_SilkScreen_Front
 0
 0
 user-footprints
+Sig_Keltenberg-B.Cu
+
+
+0
+0
+0
+user-footprints
+Sig_Keltenberg-B.Mask
+
+
+0
+0
+0
+user-footprints
+Sig_Keltenberg-B.Paste
+
+
+0
+0
+0
+user-footprints
+Sig_Keltenberg-B.SilkS
+
+
+0
+0
+0
+user-footprints
+Sig_Keltenberg-F.Cu
+
+
+0
+0
+0
+user-footprints
+Sig_Keltenberg-F.Mask
+
+
+0
+0
+0
+user-footprints
+Sig_Keltenberg-F.Paste
+
+
+0
+0
+0
+user-footprints
+Sig_Keltenberg-F.SilkS
+
+
+0
+0
+0
+user-footprints
+Sig_Keltenberg-Outline-B.SilkS
+
+
+0
+0
+0
+user-footprints
+Sig_Keltenberg-Outline-F.SilkS
+
+
+0
+0
+0
+user-footprints
+TerminalBlock_KF301_2P_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+2
+2
+user-footprints
+TerminalBlock_KF301_3P_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+3
+3
+user-footprints
+TestPoint-4-p2mm-1.5x2.2mm
+
+
+0
+4
+4
+user-footprints
+TestPoint_3Pads_SMD_Pitch2.54mm_1.5x2.5mm
+
+
+0
+3
+3
+user-footprints
+TestPoint_4Pads_SMD_Pitch2.54mm_1.5x2.5mm
+
+
+0
+4
+4
+user-footprints
+USB-type-C-3.1-female-SMD-DIP-high-current-charging
+
+
+0
+10
+10
+user-footprints
 USB_Micro-B_type5-7.2mm
 USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf
 usb micro receptacle
 0
 11
 6
+user-footprints
+ZiptieHole_2.9x1.5mm
+Mounting Hole 2.2mm, M2, DIN965
+mounting hole 2.2mm m2 din965
+0
+1
+1
+user-footprints
+led-ring-54-68mm
+
+
+0
+4
+4
+user-footprints
+plusminus
+
+
+0
+0
+0
+user-footprints
+test
+
+
+0
+6
+4
+user-footprints
+wc-150x150mm-letters
+
+
+0
+0
+0
+user-footprints
+wc-150x150mm-letters-flipped
+
+
+0
+0
+0
+user-footprints
+wc-150x150mm-letters-flipped-test
+
+
+0
+0
+0
+user-footprints
+wc-150x150mm-letters-test
+
+
+0
+0
+0
 user-footprints
 wemos-d1-mini-with-pin-header-and-connector
 
@@ -83202,6 +83419,27 @@ wemos-d1-mini-with-pin-header-and-connector
 16
 16
 zytzeiche
+APDS_9960_5pin_Module_I2C-13.5x13.5mm
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+zytzeiche
+BME_280_4pin_Module_I2C-13.5x10.5mm
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+4
+4
+zytzeiche
+DS18B20_Header_2.54mm
+TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+zytzeiche
 DT-Logo-Front
 
 
@@ -83216,12 +83454,89 @@ Module ESP-8266 ESP8266
 22
 22
 zytzeiche
-OLED_1.9inch_38x12mm
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
+HT16K33_SOP24
+
+
+0
+24
+24
+zytzeiche
+HT16K33_SOP28_300MIL
+
+
+0
+28
+28
+zytzeiche
+LED-7seg-4digit-0.56in-2x7pin-50x19mm
+
+
+0
+14
+14
+zytzeiche
+LED-14seg-2digit-0.56in-2x9pin25.1x21.15mm_KWA-541CBB
+
+led 14seg 16seg alpanumeric alnum display
+0
+18
+18
+zytzeiche
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
 0
 4
 4
+zytzeiche
+Logo_OSHW_3mm_SilkScreen
+
+
+0
+0
+0
+zytzeiche
+Logo_OSHW_6mm_w_Text_SilkScreen
+
+
+0
+0
+0
+zytzeiche
+OLED-0.91inch-128x32_Module_I2C-38x12mm
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
+zytzeiche
+Pad-3-p2mm-w1.5mm
+
+
+0
+3
+3
+zytzeiche
+PinSocket_1x05_P2.54mm_Vertical
+Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x05 2.54mm single row
+0
+5
+5
+zytzeiche
+Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork
+solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm
+solder Pin_ with flat fork
+0
+1
+1
+zytzeiche
+Pin_D0.8mm
+solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm
+solder Pin_ with flat fork
+0
+1
+1
 zytzeiche
 QR-github.com-zytzeiche
 
@@ -83236,6 +83551,13 @@ resistor
 0
 3
 3
+zytzeiche
+SOLDERJUMPER_REFLOW_NOPASTE-3x2mm
+
+
+0
+2
+2
 zytzeiche
 SYM_CC_SilkScreen_Back
 
@@ -83307,12 +83629,180 @@ SYM_HK_SilkScreen_Front
 0
 0
 zytzeiche
+Sig_Keltenberg-B.Cu
+
+
+0
+0
+0
+zytzeiche
+Sig_Keltenberg-B.Mask
+
+
+0
+0
+0
+zytzeiche
+Sig_Keltenberg-B.Paste
+
+
+0
+0
+0
+zytzeiche
+Sig_Keltenberg-B.SilkS
+
+
+0
+0
+0
+zytzeiche
+Sig_Keltenberg-F.Cu
+
+
+0
+0
+0
+zytzeiche
+Sig_Keltenberg-F.Mask
+
+
+0
+0
+0
+zytzeiche
+Sig_Keltenberg-F.Paste
+
+
+0
+0
+0
+zytzeiche
+Sig_Keltenberg-F.SilkS
+
+
+0
+0
+0
+zytzeiche
+Sig_Keltenberg-Outline-B.SilkS
+
+
+0
+0
+0
+zytzeiche
+Sig_Keltenberg-Outline-F.SilkS
+
+
+0
+0
+0
+zytzeiche
+TerminalBlock_KF301_2P_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+2
+2
+zytzeiche
+TerminalBlock_KF301_3P_P5.00mm
+Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
+Altech AK300 terminal block pitch 5.0mm
+0
+3
+3
+zytzeiche
+TestPoint-4-p2mm-1.5x2.2mm
+
+
+0
+4
+4
+zytzeiche
+TestPoint_3Pads_SMD_Pitch2.54mm_1.5x2.5mm
+
+
+0
+3
+3
+zytzeiche
+TestPoint_4Pads_SMD_Pitch2.54mm_1.5x2.5mm
+
+
+0
+4
+4
+zytzeiche
+USB-type-C-3.1-female-SMD-DIP-high-current-charging
+
+
+0
+10
+10
+zytzeiche
 USB_Micro-B_type5-7.2mm
 USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf
 usb micro receptacle
 0
 11
 6
+zytzeiche
+ZiptieHole_2.9x1.5mm
+Mounting Hole 2.2mm, M2, DIN965
+mounting hole 2.2mm m2 din965
+0
+1
+1
+zytzeiche
+led-ring-54-68mm
+
+
+0
+4
+4
+zytzeiche
+plusminus
+
+
+0
+0
+0
+zytzeiche
+test
+
+
+0
+6
+4
+zytzeiche
+wc-150x150mm-letters
+
+
+0
+0
+0
+zytzeiche
+wc-150x150mm-letters-flipped
+
+
+0
+0
+0
+zytzeiche
+wc-150x150mm-letters-flipped-test
+
+
+0
+0
+0
+zytzeiche
+wc-150x150mm-letters-test
+
+
+0
+0
+0
 zytzeiche
 wemos-d1-mini-with-pin-header-and-connector
 
