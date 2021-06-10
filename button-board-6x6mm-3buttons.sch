@@ -10,15 +10,15 @@ Rev "v1r1"
 Comp "github.com/zytzeiche/button-board-6x6mm-3buttons"
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "Distance of mounting holes: 36 mm"
 Comment4 "Assembling: remember to solder a bridge to GND _or_ to VCC for every Button"
 $EndDescr
 $Comp
 L Switch:SW_Push SW1
 U 1 1 60A61E04
 P 3600 2750
-F 0 "SW1" H 3600 3035 50  0000 C CNN
-F 1 "SW_Push" H 3600 2944 50  0000 C CNN
+F 0 "SW1" V 3350 2850 50  0000 C CNN
+F 1 "SW_Push" V 3650 3000 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 3600 2950 50  0001 C CNN
 F 3 "~" H 3600 2950 50  0001 C CNN
 	1    3600 2750
@@ -28,8 +28,8 @@ $Comp
 L Switch:SW_Push SW2
 U 1 1 60A621FC
 P 5000 2750
-F 0 "SW2" H 5000 3035 50  0000 C CNN
-F 1 "SW_Push" H 5000 2944 50  0000 C CNN
+F 0 "SW2" V 4750 2850 50  0000 C CNN
+F 1 "SW_Push" V 5050 3000 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 5000 2950 50  0001 C CNN
 F 3 "~" H 5000 2950 50  0001 C CNN
 	1    5000 2750
@@ -102,7 +102,7 @@ F 3 "~" H 5000 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1200 900  0    98   ~ 0
-Button Board / 3 Buttons @ 6x6mm / 52x12mm / 3.2 mm mounting holes
+Button Board / 3 Buttons @ 6x6mm / 52x12mm / M3 (3.2 mm) mounting holes
 $Comp
 L Jumper:Jumper_3_Open JP1
 U 1 1 60DA43AF
@@ -126,25 +126,25 @@ F 3 "" H 4150 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	1400 5250 1400 4000
+	1400 5250 1400 4100
 Wire Notes Line
-	6050 5250 6050 4000
+	6050 5250 6050 4100
 Wire Notes Line style solid
 	1400 4150 6050 4150
 Text Notes 3400 4100 0    98   ~ 0
 52mm
 Wire Notes Line
-	6200 5050 6900 5050
+	6200 5050 6850 5050
 Wire Notes Line
-	6200 6150 6900 6150
+	6200 6150 6850 6150
 Wire Notes Line style solid
 	6800 5050 6800 6150
-Text Notes 6950 5400 3    98   ~ 0
+Text Notes 6950 5350 3    98   ~ 0
 12mm
 Wire Notes Line
-	1800 5350 1800 4300
+	1800 5350 1800 4350
 Wire Notes Line
-	5000 5400 5000 4300
+	5000 5400 5000 4350
 Wire Notes Line style solid
 	5000 4400 1800 4400
 Text Notes 3150 4350 0    98   ~ 0
@@ -185,8 +185,8 @@ $Comp
 L Switch:SW_Push SW3
 U 1 1 60A62791
 P 6400 2750
-F 0 "SW3" H 6400 3035 50  0000 C CNN
-F 1 "SW_Push" H 6400 2944 50  0000 C CNN
+F 0 "SW3" V 6150 2850 50  0000 C CNN
+F 1 "SW_Push" V 6450 3000 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 6400 2950 50  0001 C CNN
 F 3 "~" H 6400 2950 50  0001 C CNN
 	1    6400 2750
@@ -5892,8 +5892,8 @@ Pos 9200 5400
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 C9 00 00 02 31 08 02 00 00 00 A9 74 D4 
-CF 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0B 12 00 00 0B 12 
-01 D2 DD 7E FC 00 00 20 00 49 44 41 54 78 9C EC 7D 77 78 54 55 FA FF B9 77 7A 49 26 BD 12 5A 42 
+CF 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0A F0 00 00 0A F0 
+01 42 AC 34 98 00 00 20 00 49 44 41 54 78 9C EC 7D 77 78 54 55 FA FF B9 77 7A 49 26 BD 12 5A 42 
 08 A1 85 22 82 20 55 10 E9 20 E2 0A F6 DE D0 DF E2 82 BB AB AB AE A2 AB 7C D7 B5 81 22 EE 43 B1 
 01 36 B0 51 44 45 90 04 90 22 3D 98 04 48 80 24 24 40 32 C9 F4 7A 7F 7F 7C 9E FB 3E 27 33 C9 90 
 40 80 24 3B EF 1F 3C C3 E4 CE BD E7 DE 7B CE E7 BC EF E7 6D 82 24 49 AC 2D 8A DF EF 17 04 41 10 
