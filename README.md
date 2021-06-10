@@ -1,8 +1,12 @@
-# button-board-6x6mm-4buttons
+# button-board-6x6mm-3buttons
 
 External button board for buttons for Arduino or Raspberry Pi.
 
-This board can be used for Button pins, which are pulled high or pulled low.
+- Dimensions: 52 x 12 mm
+- Mounting holes: M3 holes (3.2 mm), distance 36 mm
+- Buttons: 6x6 mm tactile push buttons
+
+This board can be used for Button pins, which are pulled high or pulled low. If the button pin is pulled low, solder a bridge to VCC for that button.
 
 ![PCB front](./images/front.jpg)
 
